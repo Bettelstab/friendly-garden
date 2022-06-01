@@ -5722,6 +5722,11 @@ klona@^2.0.4, klona@^2.0.5:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
 
+konva@^8.3.9:
+  version "8.3.9"
+  resolved "https://registry.yarnpkg.com/konva/-/konva-8.3.9.tgz#9c22d0e75025441f552c9687dc81e873b4876cfc"
+  integrity sha512-vZ7f4Y1LMMOkvfFCGoHt0CoanKdpv81gZC4Q4pnIBO6vHEBx+1KBdH6NR5ORd+HOkGwkRXTVPbFokrYkBSWo1g==
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"
@@ -7189,6 +7194,22 @@ react-is@^18.0.0:
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
   integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
+
+react-konva@^18.1.1:
+  version "18.1.1"
+  resolved "https://registry.yarnpkg.com/react-konva/-/react-konva-18.1.1.tgz#f3b7fdfcbd27e183853596362bc9c965c6ddedcd"
+  integrity sha512-oh01+z6pQn9XNP4phRI8CWy8/LnkEZA2tagrvnT3xSt4eRrKeWOQ2eH5f5s5nf937U8hLhVI+kvqPxMBRc4T+g==
+  dependencies:
+    react-reconciler "~0.28.0"
+    scheduler "^0.22.0"
+
+react-reconciler@~0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.28.0.tgz#52ede33c584c9b6d4c9bea02a53d368c5751c9c9"
+  integrity sha512-sGIHDOpgVjRYgsi8NgosDnbkDvvkYFFSF900ZUhUw0+lSBEA5n76TcKFaVkfYMIuYm+7W6mT8Q673DLBfuTxcQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.22.0"
 
 react-refresh@^0.11.0:
   version "0.11.0"
